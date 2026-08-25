@@ -27,11 +27,11 @@ uses a multi-stage build to create a lightweight image with the application bina
 - Task scheduling: Schedule tasks for future dates with the ability to set up a custom repeat interval.
 - Authentication: Secure login with JWT.
 - Persistent storage using SQLite.
-- RESTful API built with the Chi router.
+- RESTful API built with the Gin router.
 
 ## Dependencies
 The project uses the following dependencies:
-- **Chi Router**: Lightweight and idiomatic routing in Go (`github.com/go-chi/chi/v5`)
+- **Gin Router**: Lightweight and idiomatic routing in Go (`github.com/gin-gonic/gin`)
 - **JWT**: Handling authentication (`github.com/golang-jwt/jwt/v4`)
 - **SQLx**: SQL toolkit for Go (`github.com/jmoiron/sqlx`)
 - **SQLite3**: Database driver (`github.com/mattn/go-sqlite3`)

@@ -24,11 +24,11 @@ Il y a un Dockerfile dans le répertoire racine du projet qui peut être utilis�
 - Planification des tâches : Planifier des tâches pour des dates futures avec la possibilité de définir un intervalle de répétition personnalisé.
 - Authentification : Connexion sécurisée avec JWT.
 - Stockage persistant avec SQLite.
-- API RESTful construite avec le routeur Chi.
+- API RESTful construite avec le routeur Gin.
 
 ## Dépendances
 Le projet utilise les dépendances suivantes :
-- **Chi Router** : Routage léger et idiomatique en Go (`github.com/go-chi/chi/v5`)
+- **Gin Router** : Routage léger et idiomatique en Go (`github.com/gin-gonic/gin`)
 - **JWT** : Gestion de l'authentification (`github.com/golang-jwt/jwt/v4`)
 - **SQLx** : Outils SQL pour Go (`github.com/jmoiron/sqlx`)
 - **SQLite3** : Pilote de base de données (`github.com/mattn/go-sqlite3`)
